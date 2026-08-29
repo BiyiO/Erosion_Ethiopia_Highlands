@@ -1,0 +1,43 @@
+# Raw Big Geospatial & Raster Datasets (>100MB / raw satellite products)
+DEM/
+Landsat/
+LULC/
+Rainfall/
+Soil/
+New folder (7)/
+Outputs/Rasters/
+Outputs/landsat/
+Outputs/rainfall/
+Outputs/info/
+Outputs/*.ovr
+Outputs/*.aux.xml
+Outputs/Figures/Layout1_preview.png
+Ethiopia_Erosion/Ethiopia_Erosion.gdb/
+Ethiopia_Erosion/.backups/
+Ethiopia_Erosion/GpMessages/
+Ethiopia_Erosion/ImportLog/
+Ethiopia_Erosion/Index/
+*.tif
+*.TIF
+*.jp2
+*.SAFE
+*.zip
+*.tar.gz
+*.lock
+*.ovr
+*.aux.xml
+
+# Python & Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.env
+
+# IDE & OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

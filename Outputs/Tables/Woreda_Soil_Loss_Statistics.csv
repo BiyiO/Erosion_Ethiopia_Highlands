@@ -1,0 +1,57 @@
+Woreda,Zone,Region,Area_ha,Mean_Soil_Loss_t_ha_yr,Total_Displacement_Mt_yr,Intervention_Priority
+Enbise Sar Midir,Misraq Gojjam,Amhara,11681.279999999999,124.7171859741211,1.456856375,Critical / Urgent
+Mehal Sayint,Debub Wollo,Amhara,8029.53,118.29279327392578,0.9498355625,Critical / Urgent
+Sahla,Wag Himra,Amhara,78434.37,108.4574966430664,8.506796,Critical / Urgent
+Debark,Semen Gondar,Amhara,10970.91,104.51570892333984,1.1466325,Critical / Urgent
+Sayint,Debub Wollo,Amhara,106489.44,102.24829864501953,10.888365,Critical / Urgent
+Quarit,Mirab Gojjam,Amhara,25901.1,100.56838989257812,2.604832,Critical / Urgent
+Delanta,Semen Wello,Amhara,1873.4399999999998,99.91708374023438,0.187188671875,Critical / Urgent
+Mekdela,Debub Wollo,Amhara,89551.89,99.4853515625,8.909102,Critical / Urgent
+Ziquala,Wag Himra,Amhara,150584.31,99.05126190185547,14.915567,Critical / Urgent
+Dawunt,Semen Wello,Amhara,60967.079999999994,96.01277923583984,5.853619,Critical / Urgent
+Tach Gayint,Debub Gondar,Amhara,79631.55,95.4442367553711,7.600373,Critical / Urgent
+Dehana,Wag Himra,Amhara,168508.53,95.33246612548828,16.064334,Critical / Urgent
+Bugna,Semen Wello,Amhara,118900.89,94.7529525756836,11.266211,Critical / Urgent
+Goncha Siso Enese,Misraq Gojjam,Amhara,51622.47,93.5459213256836,4.829072,Critical / Urgent
+Lay Gayint,Debub Gondar,Amhara,152725.59,93.41874694824219,14.267434,Critical / Urgent
+Simada,Debub Gondar,Amhara,221934.78,92.18171691894531,20.45833,Critical / Urgent
+Janamora,Semen Gondar,Amhara,89682.3,88.7544174194336,7.9597005,Critical / Urgent
+Chilga,Semen Gondar,Amhara,109325.97,84.63526916503906,9.252833,Critical / Urgent
+Ebenat,Debub Gondar,Amhara,250201.16999999998,84.47354125976562,21.13538,Critical / Urgent
+Lay Armacho,Semen Gondar,Amhara,104443.65,82.01619720458984,8.566071,Critical / Urgent
+Gaz Gibla,Wag Himra,Amhara,27213.3,77.73164367675781,2.1153345,High Priority
+Dabat,Semen Gondar,Amhara,45323.64,76.51758575439453,3.46805575,High Priority
+Sekota,Wag Himra,Amhara,63724.32,76.4126968383789,4.869347,High Priority
+Beyeda,Semen Gondar,Amhara,180.45,75.93489837646484,0.013702453125,High Priority
+Tach Armacho,Semen Gondar,Amhara,59286.24,73.79425811767578,4.3749845,High Priority
+West Esite,Debub Gondar,Amhara,92209.05,72.58301544189453,6.6928115,High Priority
+Wegera,Semen Gondar,Amhara,190517.66999999998,69.3631362915039,13.214904,High Priority
+Meket,Semen Wello,Amhara,159009.03,66.51271057128906,10.576122,High Priority
+East Belesa,Semen Gondar,Amhara,189685.88999999998,65.67840576171875,12.458267,High Priority
+East Esite,Debub Gondar,Amhara,126421.56,62.694950103759766,7.9259935,High Priority
+Hulet Ej Enese,Misraq Gojjam,Amhara,68592.23999999999,58.60102844238281,4.01957575,High Priority
+Lasta,Semen Wello,Amhara,51285.96,54.83793640136719,2.8124165,High Priority
+Abergele,Wag Himra,Amhara,14732.55,53.060577392578125,0.781717625,High Priority
+Gonje,Misraq Gojjam,Amhara,23979.239999999998,50.66038513183594,1.2147975,High Priority
+Wadla,Semen Wello,Amhara,38157.479999999996,49.953861236572266,1.9061135,Moderate Priority
+Yilmana Densa,Mirab Gojjam,Amhara,139846.32,46.635780334472656,6.5218425,Moderate Priority
+West Belesa,Semen Gondar,Amhara,114338.25,46.35618591308594,5.3002855,Moderate Priority
+Gonder Zuria,Semen Gondar,Amhara,140325.47999999998,45.684349060058594,6.4106785,Moderate Priority
+Libo Kemkem,Debub Gondar,Amhara,96273.45,33.99543762207031,3.272858,Moderate Priority
+Dera,Debub Gondar,Amhara,153699.57,33.41118240356445,5.1352845,Moderate Priority
+Farta,Debub Gondar,Amhara,120826.53,31.487594604492188,3.804537,Moderate Priority
+Dega Damot,Mirab Gojjam,Amhara,4509.63,27.749311447143555,0.1251391328125,Moderate Priority
+Bibugn,Misraq Gojjam,Amhara,4254.03,25.4464111328125,0.108249796875,Moderate Priority
+Sekela,Mirab Gojjam,Amhara,39383.909999999996,25.43440055847168,1.0017061875,Moderate Priority
+Banja,Agew Awi,Amhara,3455.19,20.614164352416992,0.071225859375,Maintenance / Low
+Alfa,Semen Gondar,Amhara,2014.29,16.036056518554688,0.032301271484375,Maintenance / Low
+Dembia,Semen Gondar,Amhara,121277.51999999999,15.474649429321289,1.87672725,Maintenance / Low
+Takusa,Semen Gondar,Amhara,18527.13,10.96519660949707,0.203153640625,Maintenance / Low
+Fogera,Debub Gondar,Amhara,100809.98999999999,10.324666023254395,1.0408295,Maintenance / Low
+Bahir Dar Zuria,Mirab Gojjam,Amhara,157617.9,9.757865905761719,1.538014375,Maintenance / Low
+Mecha,Mirab Gojjam,Amhara,145966.32,8.056453704833984,1.175971,Maintenance / Low
+Debub Achefer,Mirab Gojjam,Amhara,7873.74,7.39420747756958,0.0582200703125,Maintenance / Low
+Semen Achefer,Mirab Gojjam,Amhara,40125.06,4.999509811401367,0.200605640625,Maintenance / Low
+Fagta Lakoma,Agew Awi,Amhara,13978.529999999999,4.648263931274414,0.06497589453125,Maintenance / Low
+Dangila,Agew Awi,Amhara,189.81,4.08771276473999,0.0007758887939453125,Maintenance / Low
+Bahir Dar,Bahir Dar Special Zone,Amhara,725.85,3.1856656074523926,0.0023123154296875,Maintenance / Low

@@ -8,7 +8,7 @@
 Soil erosion and downstream reservoir siltation pose severe threats to agricultural sustainability, hydropower generation, and aquatic ecology across the **Ethiopian Highlands**. 
 
 This repository provides an automated GIS and remote sensing modeling framework integrating:
-1. **The Revised Universal Soil Loss Equation (RUSLE)** for gross hillslope soil detachment ($A$).
+1. **The Revised Universal Soil Loss Equation (RUSLE)** for gross hillslope soil detachment (`A`).
 2. **Multi-Criteria Weighted Overlay Analysis (MCDA)** for erosion susceptibility priority zonation.
 3. **The Borselli / InVEST Sediment Delivery Ratio (SDR)** model for tracing sediment transport through stream networks into **Lake Tana** and river tributaries.
 
@@ -35,16 +35,16 @@ Core Mathematical Formulations:
 
 ## 📊 Key Findings & Quantitative Metrics
 
-* **Gross Regional Soil Loss ($A$)**: **65.2 t · ha⁻¹ · yr⁻¹** across upland terrain (median: **44.2 t · ha⁻¹ · yr⁻¹**).
-* **Mean Sediment Delivery Ratio ($SDR$)**: **10.7%** (0.107 delivery fraction), meaning ~10.7% of detached hillslope sediment reaches permanent river channels and Lake Tana, while the remainder is redeposited on footslopes and floodplains.
-* **Mean Net Sediment Export ($E$)**: **8.08 t · ha⁻¹ · yr⁻¹** entering drainage channels.
-* **Lake Tana Annual Siltation Inflow**: **~27.7 Megatonnes / year** (~22.1 million $\text{m}^3/\text{yr}$ equivalent sediment volume).
+* **Gross Regional Soil Loss (`A`)**: **65.2 t · ha⁻¹ · yr⁻¹** across upland terrain (median: **44.2 t · ha⁻¹ · yr⁻¹**).
+* **Mean Sediment Delivery Ratio (`SDR`)**: **10.7%** (0.107 delivery fraction), meaning ~10.7% of detached hillslope sediment reaches permanent river channels and Lake Tana, while the remainder is redeposited on footslopes and floodplains.
+* **Mean Net Sediment Export (`E`)**: **8.08 t · ha⁻¹ · yr⁻¹** entering drainage channels.
+* **Lake Tana Annual Siltation Inflow**: **~27.7 Megatonnes / year** (~22.1 million m³/year equivalent sediment volume).
 * **Major Tributary Contributions to Lake Tana**:
-  * **Megech River (North / Gondar)**: **2.34 Mt / yr** ($7.81\text{ t/ha/yr}$ specific yield).
-  * **Ribb River (East / Debub Gondar)**: **2.02 Mt / yr** ($6.01\text{ t/ha/yr}$ specific yield).
-  * **Gilgel Abay (Little Blue Nile / South)**: **1.66 Mt / yr** ($2.41\text{ t/ha/yr}$ specific yield).
-  * **Gumara River (South-East / Mt. Guna)**: **0.96 Mt / yr** ($2.74\text{ t/ha/yr}$ specific yield).
-  * **Direct Littoral Catchments**: **20.70 Mt / yr** ($7.04\text{ t/ha/yr}$ specific yield).
+  * **Megech River (North / Gondar)**: **2.34 Mt / yr** (`7.81 t/ha/yr` specific yield).
+  * **Ribb River (East / Debub Gondar)**: **2.02 Mt / yr** (`6.01 t/ha/yr` specific yield).
+  * **Gilgel Abay (Little Blue Nile / South)**: **1.66 Mt / yr** (`2.41 t/ha/yr` specific yield).
+  * **Gumara River (South-East / Mt. Guna)**: **0.96 Mt / yr** (`2.74 t/ha/yr` specific yield).
+  * **Direct Littoral Catchments**: **20.70 Mt / yr** (`7.04 t/ha/yr` specific yield).
 * **Targeted Intervention Efficiency**: The **steepest 20% of land area accounts for ~62.4% of total sediment yield**, demonstrating that targeted terracing and riparian buffer strips along stream networks will yield maximal siltation reduction for Lake Tana.
 
 ---
@@ -52,7 +52,7 @@ Core Mathematical Formulations:
 ## 🗺️ High-Resolution Cartographic Composite Maps (300 DPI)
 
 ### Figure 1: RUSLE Model Factor Decomposition
-Decomposition of the 5 input parameters ($R, K, LS, C, P$) alongside SRTM 30m elevation across the Ethiopian Highlands study area.
+Decomposition of the 5 input parameters (`R, K, LS, C, P`) alongside SRTM 30m elevation across the Ethiopian Highlands study area.
 
 ![Figure 1: RUSLE Model Factor Decomposition](Outputs/Figures/Figure1_RUSLE_Factors_Composite.png)
 
@@ -75,9 +75,9 @@ Multi-Criteria Weighted Overlay (Slope 45%, Rainfall 35%, Soil 20%) highlighting
 ### Figure 6: Sediment Delivery Ratio & Connectivity Composite
 4-Panel high-resolution composite plate showing:
 - **(a)** Topographic drainage channels and Lake Tana sub-basin tributary network.
-- **(b)** Borselli Index of Sediment Connectivity ($IC$).
-- **(c)** Calibrated Sediment Delivery Ratio ($SDR$).
-- **(d)** Net Annual Sediment Export ($E = A \times SDR$, $\text{t/ha/yr}$) into drainage channels and Lake Tana.
+- **(b)** Borselli Index of Sediment Connectivity (`IC`).
+- **(c)** Calibrated Sediment Delivery Ratio (`SDR`).
+- **(d)** Net Annual Sediment Export (`E = A × SDR`, t/ha/year) into drainage channels and Lake Tana.
 
 ![Figure 6: Sediment Delivery Ratio Composite](Outputs/Figures/Figure6_Sediment_Delivery_Ratio_Composite.png)
 
@@ -101,7 +101,7 @@ Pareto cumulative loss curve, slope gradient sensitivity, vegetation density res
 
 ### Figure 7: Lake Tana Basin Siltation & Tributary Sediment Yield
 - **(a)** Annual sediment mass delivered by major tributary (Mt/yr).
-- **(b)** Specific sediment export rate ($\text{t/ha/yr}$).
+- **(b)** Specific sediment export rate (t/ha/year).
 - **(c)** Proportional tributary contribution breakdown.
 - **(d)** Overland flow distance decay curve illustrating the sediment buffering capacity of riparian zones.
 
@@ -158,14 +158,14 @@ python src/generate_sdr_maps.py
 
 | Factor / Component | Primary Input Dataset | Methodological Formula / Standard |
 | :--- | :--- | :--- |
-| **Topography ($LS$)** | SRTM 30m DEM (`EPSG:32637`) | Moore & Burch (1986) / Desmet & Govers (1996) unit stream power formulation |
-| **Rainfall ($R$)** | WorldClim v2.1 ($30''$) | Hurni (1985) / Helldén (1987) empirical model for Ethiopian Highlands: $R = 0.562 \times P + 26.3$ |
-| **Soil ($K$)** | SoilGrids (ISRIC) 250m | Williams / EPIC texture model calibrated for volcanic Vertisols / Nitisols ($0.16 - 0.30$) |
-| **Land Cover ($C$)** | Landsat 8/9 OLI-2 Mosaic | SCRP calibrated NDVI piecewise classification ($0.00$ water to $0.45$ bare soil) |
-| **Conservation ($P$)**| 30m Slope Gradient | Wischmeier & Smith (1978) / Ethiopian Ministry of Agriculture terracing guidelines |
-| **Connectivity ($IC$)**| SRTM DEM + Landsat $C$ | Borselli et al. (2008) / Cavalli et al. (2013) upslope vs. downslope flow impedance |
-| **Sediment Delivery ($SDR$)**| Connectivity ($IC$) | Sigmoidal InVEST SDR formulation ($SDR_{max}=0.80, IC_0=0.50, k=2.0$) |
-| **Net Export ($E$)** | RUSLE $A \times SDR$ | Net sediment mass transported into permanent stream channels & Lake Tana |
+| **Topography (`LS`)** | SRTM 30m DEM (`EPSG:32637`) | Moore & Burch (1986) / Desmet & Govers (1996) unit stream power formulation |
+| **Rainfall (`R`)** | WorldClim v2.1 (`30''`) | Hurni (1985) / Helldén (1987) empirical model for Ethiopian Highlands: `R = 0.562 × P + 26.3` |
+| **Soil (`K`)** | SoilGrids (ISRIC) 250m | Williams / EPIC texture model calibrated for volcanic Vertisols / Nitisols (`0.16 - 0.30`) |
+| **Land Cover (`C`)** | Landsat 8/9 OLI-2 Mosaic | SCRP calibrated NDVI piecewise classification (0.00 water to 0.45 bare soil) |
+| **Conservation (`P`)**| 30m Slope Gradient | Wischmeier & Smith (1978) / Ethiopian Ministry of Agriculture terracing guidelines |
+| **Connectivity (`IC`)**| SRTM DEM + Landsat `C` | Borselli et al. (2008) / Cavalli et al. (2013) upslope vs. downslope flow impedance |
+| **Sediment Delivery (`SDR`)**| Connectivity (`IC`) | Sigmoidal InVEST SDR formulation (`SDR_max=0.80, IC_0=0.50, k=2.0`) |
+| **Net Export (`E`)** | RUSLE `A × SDR` | Net sediment mass transported into permanent stream channels & Lake Tana |
 
 ---
 
